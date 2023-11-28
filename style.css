@@ -1,0 +1,86 @@
+body{
+		background: grey;
+		margin: 0;
+		padding: 0;
+
+	}
+	header{
+		background: black;
+		background-image: url("main 1.jpg");
+		background-size: 100%;
+		background-position: center;
+	    padding: 20px;
+	    text-align: center;
+	    height: 400px;
+	}
+	header .logo a{
+		background-image: url("logo.png");
+		background-size: 100px;
+		background-repeat: no-repeat;
+		display: inline-block;
+		position: relative;
+		text-indent: -9999999999px;
+		top: -30px;
+		height: 80px;
+		width: 100px;
+	}
+	header .mobile{
+		display: none;
+	}
+	.features{
+		background: white;
+		padding: 20px;
+		display: flex;
+		flex-direction: row;
+		text-align: center;
+
+	}
+	@media screen and (max-width: 715px){
+		header .mobile{
+			display: inline;
+		}
+		header {
+			height: 200px;
+		}
+		header .desktop{
+			display: none;
+		}
+		header .logo a{
+			top: -10px;
+		}
+		.features{
+			display: block;
+		}
+	}
+	.features figure {
+		
+		margin: auto;
+		width: 200px;
+		text-transform: uppercase;
+
+	}
+	.features figure img{
+		width: 200px;
+		border-radius: 50%;
+		box-shadow: gray 0 0 10px;
+		border: 1px solid white;
+	}
+
+	
+	footer{
+		background: black;
+		color: gray;
+		padding: 20px 10px;
+		text-align: center;
+		font-size: 13px;
+	}
+	ul{
+		margin: 0;
+		padding: o;
+		list-style-type: none;
+	}
+	li{
+		display: inline-block;
+		margin-right: 20px;
+	}
+	
